@@ -88,10 +88,13 @@ first div in the grid  and place it in the grid. */
 
  /* Step 8: Write the selector/rule property to style the .text-block class. */
       .text-block{
-          align-items:center;
-          justify-content:center;
+          display:inline-block;
           text-align: center;
+          justify-content: center;
           align-content: center;
+          justify-self: center;
+          align-self: center;
+          
       }
 
 /* Add your media query here */
